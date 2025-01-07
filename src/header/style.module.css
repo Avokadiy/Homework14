@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Jersey;
+    src: url('../assets/fonts/Jersey.ttf');
+}
+
+.container {
+    display: flex;
+    padding: 60px 200px;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: 'Jersey';
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    opacity: 50%;
+}
+
+.button {
+    background-color: white;
+    border: solid black 2px;
+    font-family: 'Jersey';
+    font-size: 50px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}

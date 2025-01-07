@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Jersey;
+    src: url('../assets/fonts/Jersey');
+}
+
+.container {
+    display: grid;
+    border: solid black 1px;
+    gap: 20px;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 200px;
+}
+
+.container p {
+    font-family: 'Jersey';
+    font-size: 20px;
+}

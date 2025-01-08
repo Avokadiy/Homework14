@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Jersey;
+    src: url(../assets/fonts/Jersey.ttf);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    padding: 60px;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container div img {
+    height: 48px;
+}
+
+.container p {
+    font-family: Jersey;
+    font-size: 24px;
+    margin: auto;
+}

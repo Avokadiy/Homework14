@@ -1,3 +1,4 @@
+import SwitchTheme from '../SwitchTheme/SwitchTheme'
 import style from './style.module.css'
 
 export default function Header() {
@@ -15,6 +16,7 @@ export default function Header() {
             <button className={style.button}>
                 Contact me
             </button>
+            <SwitchTheme/>
         </div>
     )
 }

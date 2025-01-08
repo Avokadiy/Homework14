@@ -1,0 +1,55 @@
+.dark {
+    transition: all 500ms linear;
+    background-color: black;
+    color: white;
+}
+
+.dark button {
+    transition: all 500ms linear;
+    background-color: black;
+    color: white;
+    border: solid 1px white ;
+}
+
+.dark button:hover {
+    transition: all 500ms linear;
+    background-color: white;
+    color: black;
+}
+
+.dark a {
+    transition: all 500ms linear;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+
+.dark ._container_y3zq5_11 {
+    transition: all 500ms linear;
+    border-bottom: 1px solid white;
+}
+
+.dark ._container_tpmn6_11 {
+    transition: all 500ms linear;
+    border: 4px solid white;
+}
+
+.dark ._quotes_tpmn6_115 div {
+    transition: all 500ms linear;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.light {
+    transition: all 500ms linear;
+    background-color: white;
+    color: black;
+}
+
+.light button {
+    transition: all 500ms linear;
+}
+
+.light a {
+    transition: all 500ms linear;
+}

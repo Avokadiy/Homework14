@@ -4,12 +4,17 @@
 }
 
 .container {
-    display: grid;
-    border: solid black 1px;
-    gap: 20px;
+    border: solid black 3px;
     margin: 20px;
-    grid-template-columns: repeat(3, 1fr);
     max-width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container h3 {
+    font-family: 'Jersey';
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .container p {

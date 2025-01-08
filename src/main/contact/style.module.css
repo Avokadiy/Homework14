@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Jersey;
+    src: url(/src/assets/fonts/Jersey.ttf);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 4px solid black;
+}
+
+.container h2 {
+    font-family: Jersey;
+    font-size: 60px;
+    text-align: center;
+}
+
+.inputs {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+.inputs p {
+    font-family: Jersey;
+    font-size: 20px;
+    margin: auto;
+}
+
+.shortinput {
+    display: block;
+    font-size: 40px;
+    font-family: Jersey;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.longinput {
+    display: block;
+    font-family: Jersey;
+    font-size: 40px;
+    margin: 10px;
+    max-width: 300px;
+    height: 150px;
+}
+
+.container button {
+    font-size: 40px;
+    font-family: Jersey;
+    max-width: 300px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;;
+    width: 100%;
+}
+
+.quotes div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+    max-width: 49%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.quotes div p {
+    font-size: 20px;
+    font-family: Jersey;
+}

@@ -9,8 +9,7 @@ type Props = {
 const Card: FC<Props> = ({data}) => {
     return (
         <div className={style.container}>
-            <p>{data.id}</p>
-            <p>{data.name}</p>
+            <h3>{data.name}</h3>
             <p>{data.description}</p>
         </div>
     )

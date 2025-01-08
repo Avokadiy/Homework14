@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Jersey;
+    src: url(../../assets/fonts/Jersey.ttf);
+}
+
+.container {
+    width: 1680px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px auto;
+}
+
+.container div {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.container h3 {
+    font-family: Jersey;
+    font-size: 30px;
+    font-size: 90px;
+}
+
+.container div p {
+    font-family: Jersey;
+    font-size: 20px;
+    font-size: 40px;
+}
+
+.container img {
+    max-width: 100%;
+    object-fit: contain;
+}

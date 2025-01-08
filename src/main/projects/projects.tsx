@@ -4,10 +4,13 @@ import Card from './card/card'
 
 export default function Projects() {
     return(
-        <div className={style.container}>
-            {projects.projects.map((project) => {
-                return <Card data={project}/>
-            })}
-        </div>
+        <>
+            <h2>My Projects</h2>
+            <div className={style.container}>
+                {projects.projects.map((project) => {
+                    return <Card key={project.id} data={project}/>
+                })}
+            </div>
+        </>
     )
 }

@@ -21,3 +21,17 @@
     font-family: 'Jersey';
     font-size: 20px;
 }
+
+@media (max-width: 320px) {
+    .container {
+        margin: 10px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+    
+    .container p {
+        font-size: 15px;
+    }
+}

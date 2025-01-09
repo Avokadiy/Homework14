@@ -10,6 +10,7 @@
     gap: 50px;
     font-family: 'Jersey';
     border-bottom: 1px solid black;
+    align-items: center;
 }
 
 .logo {
@@ -45,4 +46,74 @@
 .button:hover {
     background-color: black;
     color: white;
+}
+
+.linksListButton {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 10px 10px 0 10px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .links {
+        gap: 10px;
+    }
+
+    .links a {
+        font-size: 30px;
+    }
+    
+    .button {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        gap: 5px;
+        align-items: end;
+    }
+
+    .button {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .linksListButton {
+        display: block;
+        background-color: white;
+        font-weight: 900;
+        font-size: 16px;
+        padding: 0;
+        height: 39px;
+    }
+
+    .linksListButton:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .menu:active {
+        display: block;
+        position: absolute;
+    }
 }

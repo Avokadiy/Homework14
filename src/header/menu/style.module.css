@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Jersey;
+    src: url(../../assets/fonts/Jersey.ttf);
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    top: 51px;
+    background-color: white;
+    margin: auto;
+    gap: 1px;
+}
+
+.menu a {
+    font-family: Jersey;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px;
+}

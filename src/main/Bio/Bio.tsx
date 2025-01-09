@@ -12,7 +12,9 @@ export default function Bio() {
                 <p>I'm ready to work 24/7, 7 days a week and to do everything to not work with kids</p>
                 <p>Hobbies: games, modelling, boardgames and etc.</p>
             </div>
-            <img src={developer} alt="developer image" />
+            <div className={style.wrap}>
+                <img src={developer} alt="developer image" />
+            </div>
         </div>
     )
 }

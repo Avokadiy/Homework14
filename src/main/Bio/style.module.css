@@ -19,17 +19,40 @@
 
 .container h3 {
     font-family: Jersey;
-    font-size: 30px;
     font-size: 90px;
 }
 
 .container div p {
     font-family: Jersey;
-    font-size: 20px;
     font-size: 40px;
 }
 
 .container img {
     max-width: 100%;
     object-fit: contain;
+}
+
+.wrap {
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .container img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container h3 {
+        font-family: Jersey;
+        font-size: 50px;
+    }
+
+    .container div p {
+        font-size: 20px;
+    }
 }
